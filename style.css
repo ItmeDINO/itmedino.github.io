@@ -1,0 +1,119 @@
+* {margin: 0;padding: 0;}
+
+nav p.navbar-brand {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+
+nav button.btn.btn-primary {
+    padding: 12px 16px !important;
+}
+
+header.masthead {
+    position: relative;
+    background: url(bg-masthead.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 12rem 0rem;
+}
+
+.masthead::before {
+    content: "";
+    position: absolute;
+    background-color: #1c375e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+div.caol-auto button {
+    padding: 0.85rem 1.25rem !important;
+}
+
+form.form-subcribe input {
+    min-height: calc(1.5rem + 2rem + 2px) !important;
+}
+
+.icon-s2 {
+    font-size: 72px;
+}
+
+.headline-s2 {
+    font-size: 28px;
+}
+
+.mota-s2 {
+    font-size: 20px;
+}
+
+.p-icon {
+    padding: 7rem 0;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.margin-text {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.padding-tb {
+    padding: 7rem;
+}
+
+.testimonial-item {
+    max-width: 18rem;
+}
+
+.padding-tb .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.background-img {
+    position: relative;
+    background: url(bg-masthead.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 7rem 0rem;
+}
+
+.background-img::before {
+    content: "";
+    position: absolute;
+    background-color: #1c375e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+footer.footer {
+    padding: 4rem 0;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 0.875em;
+}
+
+.text-lg-start {
+    text-align: left !important;
+}
+
+.text-lg-end {
+    text-align: right !important;
+}
+
+.icon {
+    font-size: calc(1.3rem + 0.6vW) !important;
+}
